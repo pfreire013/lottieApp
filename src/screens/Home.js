@@ -78,6 +78,7 @@ export default class Home extends Component {
           <Lottie style={styles.happyPig} source={HappyPig} autoPlay />
         </View>
         <ScrollView
+          style={{margin: 12}}
           scrollEventThrottle={16}
           onScroll={Animated.event([
             {
